@@ -1,0 +1,200 @@
+body{
+    background-color: black;
+}
+
+.logo{
+    height:50px;
+    margin-left: 10px;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+}
+
+.nav{
+    float:right;
+    color:seashell;
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: 16px;
+}
+
+.background{
+    height:700px;
+    width:1400px;
+    margin-left: 150px;
+    margin-top: 50px;
+    
+}
+
+.background-text1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width:1210px;
+    text-align: center;
+    font-size: 38px;
+    transform: translate(-50%, -50%);
+    color:seashell;
+    font-family: Helvetica;
+    opacity: 0.9;
+}
+
+.background-text2{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width:1210px;
+    text-align: center;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color:seashell;
+    font-family: Helvetica;
+    opacity: 0.9;
+}
+
+.sub-background{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width:1210px;
+    height:95px;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    opacity: 0.9;
+}
+
+.tea-head-1{
+    text-align: center;
+    color:seashell;
+    margin-top: 145px;
+    font-family: Helvetica;
+    font-size: 40px;
+    opacity: 0.9;
+}
+
+.tea-head-2{
+    text-align: center;
+    color:seashell;
+    font-family: Helvetica; 
+    font-size: 25px;
+    margin-top: -15px;
+    opacity: 0.9;   
+}
+
+.Tea-images-1{
+    display: grid;
+    height: 195px;
+    width:1000px;
+    margin-left: 255px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
+}
+
+.images{
+    height:200px;
+    width: 300px;
+}
+
+.Tea-caption-1{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Helvetica;
+    margin-left: 320px;
+    color:seashell;
+}
+
+.Tea-images-2{
+    display: grid;
+    height: 195px;
+    width:670px;
+    margin-left: 405px;
+    grid-template-columns:auto auto;
+    grid-column-gap: 5px;
+    justify-items: center;
+}
+
+.Tea-caption-2{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Helvetica;
+    margin-left: 505px;
+    color:seashell;
+    opacity: 0.9;
+}
+
+.location{
+    height:600px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    margin-left: 145px;
+    opacity: 0.9;
+}
+
+.location-head{
+    font-family: Helvetica;
+    color:seashell;
+    margin-left: 500px;
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.location-box{
+    height:300px;
+    width:920px;
+    margin-left: 110px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 40px;
+    opacity: 1;
+}
+
+.location-box-item{
+    height:300px;
+    width:300px;
+    background-color: black;
+    opacity: 1;
+}
+
+.location-box-text-1{
+    color: seashell;
+    font-size: 25px;
+    font-family: Helvetica;
+    text-align: center;
+    padding-top: 20px;  
+}
+
+.location-box-text-2{
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: 100px;
+    padding-top: 16px;
+}
+
+.bottom{
+    height: 200px;
+}
+
+.bottom h1{
+    text-align: center;
+    font-size: 38px;
+    color:seashell;
+    font-family: Helvetica;
+}
+
+.bottom h5{
+    text-align: center;
+    font-size: 20px;
+    color:seashell;
+    font-family: Helvetica;
+}
+
+footer{
+    text-align: left;
+    margin-left: 20px;
+    color:seashell;
+    font-family: Helvetica;
+}
